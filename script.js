@@ -183,12 +183,12 @@ const accordianQuestion = () => {
     accButton += `<div id="acc-button-group-${index}" class="group-18-sVv" onclick="hideShow(${index})">
     <img id="acc-button-rectangle-${index}" class="rectangle-19-QVr" src="./assets/rectangle-19.png" />
     <div class="auto-group-vr47-YMA">
-      <p class="why-perennials-used-in-our-works-5bz">
+      <p class="question-accordian">
         ${value.question}
       </p>
       <p
         id="acc-button-answer-${index}"
-        class="we-offer-a-wide-range-of-perennials-including-flowering-perennials-grasses-and-groundcovers-they-are-perfect-for-adding-color-and-texture-to-your-garden-1Ek"
+        class="answer-accordian"
       >
         ${value.answer}
     </p>
